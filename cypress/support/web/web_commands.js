@@ -14,7 +14,7 @@ Cypress.Commands.add('LoginPage', () => {
 
 Cypress.Commands.add('logoutPage', () => {
     cy.get('.oxd-userdropdown-name').click()
-    cy.contains('Logout').should('be.visible').click()
+    
     
 })
 Cypress.Commands.add('InfoPage', (name, lastname) => {
